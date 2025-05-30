@@ -1,0 +1,37 @@
+.to-do-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+}
+
+.button{
+  
+  padding: 5px;
+  border-radius: 15%;
+  border: solid 1px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delete.button{
+border-color: red;
+}
+.up.button{
+border-color: blue;
+
+}
+
+.down.button{
+border-color: goldenrod;
+
+}
+
+ol{
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  gap:10px
+}
