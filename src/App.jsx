@@ -1,4 +1,3 @@
-import './App.css'
 import ToDoList from './ToDoList.jsx'
 
 function App() {
